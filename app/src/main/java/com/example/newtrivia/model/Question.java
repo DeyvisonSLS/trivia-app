@@ -34,4 +34,13 @@ public class Question
     {
         this.answerTrue = answerTrue;
     }
+
+    @Override
+    public String toString()
+    {
+        return "Question{" +
+                "answer='" + answer + '\'' +
+                ", answerTrue=" + answerTrue +
+                '}';
+    }
 }
